@@ -1,5 +1,6 @@
 import React from "react";
 import { links } from "../project-assets/data";
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -15,7 +16,8 @@ const Navbar = () => {
               <a
                 href={href}
                 id={id}
-                className="capitalize text-lg tracking-wide hover:text-emerald-600 duration-300"
+                className="capitalize text-lg tracking-wide hover:text-emerald-600 duration-300 hover:animate-pulse hover:underline"
+                key={id}
               >
                 {text}
               </a>
