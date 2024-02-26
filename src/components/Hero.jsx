@@ -22,14 +22,14 @@ const Hero = () => {
             <img src={img} alt="eight" className="h-8 animate-spin " />
             Transforming Thoughts To Reality
           </p>
-          <div className="flex gap-x-4 mt-4">
+          {/* <div className="flex gap-x-4 mt-4">
             <a href="#">
               <FaGithubSquare className="h-8 w-8 text-blue-500 hover:animate-pulse hover:underline"></FaGithubSquare>
             </a>
             <a href="#">
               <FaLinkedin className="h-8 w-8 text-blue-500 hover:animate-pulse hover:underline"></FaLinkedin>
             </a>
-          </div>
+          </div> */}
         </article>
         <article className="hidden md:block ">
           <img src={photo} alt="photo" className="rounded-full h-80 lg:h-86" />
