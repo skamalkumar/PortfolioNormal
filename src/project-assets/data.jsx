@@ -13,19 +13,19 @@ export const skills = [
     id: nanoid(),
     title: "HTML&CSS",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    text: "Skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
   },
   {
     id: nanoid(),
     title: "Javascript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
+    text: "Building interactive and dynamic web applications using JavaScript with a focus on seamless user interactions as well as using MongoDB and Express for back-end functionality",
   },
   {
     id: nanoid(),
     title: "React",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    text: "Proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
   },
 ];
 
@@ -36,7 +36,7 @@ export const projects = [
     url: "https://kamal-gnews.netlify.app",
     github: "https://github.com/skamalkumar/ReactAuthFinal.git",
     title: "first project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    text: "Global news app which displays latest worldwide information with just a click.  Authorization through google console makes the App more secured while Redux has been used for global state management.",
   },
   {
     id: nanoid(),
@@ -44,7 +44,7 @@ export const projects = [
     url: "https://kamal-stockmarket.netlify.app",
     github: "https://github.com/skamalkumar/ReactStockMarket.git",
     title: "second project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    text: "Ticker, prices, Symbols, Percentages; you name it and they are at your disposal. Latest analytical data about all the stocks in the US exchange for your decison making process.",
   },
   {
     id: nanoid(),
